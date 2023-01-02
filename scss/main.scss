@@ -3,20 +3,16 @@ body{background-color: #ccc;}
 header{
     width: 1080px;
     margin: 0 auto;
-    outline: 1px solid red;
     .topWrap{
         display: flex;
         justify-content: space-between;
-        border: 1px solid black;
         #logo{
-            border: 1px solid orange;
             height: 60px;
             line-height: 60px;
         }
 
         .side{
             display: flex;
-            border: 1px solid green;
             align-items: center;
             .btn{
                width: 22px;height: 22px;
@@ -32,14 +28,12 @@ header{
         li.gnb{
             font-weight: 800;
             padding: 10px 20px;
-            border:1px solid salmon;
         }
     }
 }
 .section{
     width: 1080px; height: 600px;
     margin: 0 auto;
-    outline: 1px solid red;
     background-color: #aaa;
     margin-bottom: 40px;
 }
@@ -49,7 +43,6 @@ header{
     footer{
         width: 1080px;
         margin: 0 auto;
-        outline: 1px solid red;
         color:aliceblue;
         text-align: center;
     }
